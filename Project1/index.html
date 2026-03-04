@@ -1,0 +1,64 @@
+<!-- index.html -->
+
+<!DOCTYPE html> <!-- объявление типа документа, говорит о том что HTML5  -->
+<html lang="en">
+
+<!-- Тех. информация, user не видит -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstSite</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<!-- тело, user видит -->
+<body>
+
+    <script src="script.js"></script>
+
+    <!-- Заголовки и текст -->
+    <h1>MainTitle</h1>
+    <p>FirstSite</p>
+    <h1>Subtitle</h1>
+    <p>List:</p>
+
+    <!-- Маркированный список -->
+    <ul>
+        <li>Список (проверка отображения русского текста)</li>
+        <li>Second Line</li>
+    </ul>
+
+    <!-- Ссылки -->
+    <p>
+    Follow link: <a href="https://www.google.com/" target = "_blank">https://www.google.com</a>
+    или <a href="https://www.google.com/" target ="_blank">         Google</a>
+    </p>
+
+    <!-- кнопка -->
+    <button onclick="showText()">Push me</button>
+    <!-- текст после кнопки -->
+    <span id="text"></span>
+
+</body>
+
+
+</html>
+
+
+<!-- 
+учебная инфа
+
+http:// - протокол. "язык, на котором блаузер общается с сервером"
+Hyper Text Transfer Protocol
+
+127.0.0.1 - это Localhost
+(зарезервированный адрес, кот. всегда указывает на мой собственный комп)
+комп "притворяется сервером в инете для локального теста сайта"
+
+5500 - номер порта, именно его занимает расширение Live Server в VS Code
+другое приложение - другой порт
+
+index.html - сам файл
+
+-->
